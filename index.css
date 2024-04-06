@@ -15,8 +15,20 @@ body {
   color: black;
 }
 
+main .photo {
+  width: 50%;
+  object-fit: contain;
+  object-position: right;
+}
+
+main .description {
+  font-size: 12px;
+  object-fit: contain;
+  object-position: left;
+}
+
 h1 {
-  font-size: ;
+  font-size: 24px;
 }
 
 .input {
