@@ -1,8 +1,19 @@
 body {
   font-family: Arial;
   background: url(images/background.jpg);
+  background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
   color: azure;
+  font-size: 12px;
+  font-family: Arial;
+}
 
-  background-size: cover;
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
 }
