@@ -22,9 +22,9 @@ img {
 header {
   background: rgb(11, 40, 81);
   margin: 0 auto;
-  padding: 10% 5%;
+  padding: 30px 10px;
   max-width: 80%;
-  max-height: 2%;
+  max-height: 100px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -37,7 +37,6 @@ main {
   margin: 0 auto;
   padding: 2% 10%;
   max-width: 80%;
-  max-height: 90%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -48,9 +47,9 @@ main {
 footer {
   background: rgb(11, 40, 81);
   margin: 0 auto;
-  padding: 10% 5%;
+  padding: 30px 10px;
   max-width: 80%;
-  max-height: 2%;
+  max-height: 100px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
