@@ -1,25 +1,48 @@
-body {
-  padding-left: 20%;
-  padding-right: 20%;
+a {
+  text-decoration: none;
   color: aliceblue;
-  font-size: medium;
+}
+
+a:hover {
+  color: aqua;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  padding-left: 15%;
+  padding-right: 15%;
+  color: aliceblue;
   font-family: "Courier New";
-  text-align: center;
-  word-spacing: 30px;
-  flex-wrap: wrap;
+  background-color: black;
 }
 
 header {
-  text-align: left;
-  padding-left: 10%;
-  background-color: aqua;
+  background-color: rgb(53, 95, 131);
+  margin: 10%;
+  padding: 10%;
+  width: max-content;
+  height: 100px;
+}
+
+footer {
+  background-color: rgb(53, 95, 131);
+  margin: 10%;
+  padding: 10%;
+  width: max-content;
+  height: 100px;
+}
+
+.logo {
+  font-size: 24px;
 }
 
 nav {
-  text-align: right;
+  flex-wrap: wrap;
+  text-align: justify;
   padding-right: 10%;
   word-spacing: 30px;
   text-decoration: none;
+  font-size: 48px;
 }
 
 .images img {
