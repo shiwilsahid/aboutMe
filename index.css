@@ -1,9 +1,11 @@
-body {
-  color: #19212a;
+:root {
+  --font-sans: "Inter", sans-serif;
+  --text-primary: hsla(200, 70%, 95%, 1);
+  --bg-primary: hsla(200, 70%, 50%, 1);
+  --bg-primary-hover: hsla(200, 70%, 60%, 1);
+  --bg-primary-focus: hsla(200, 70%, 40%, 1);
 }
-.header {
-  color: aqua;
-}
-.container {
-  color: aquamarine;
+img {
+  width: 100%;
+  object-fit: contain;
 }
