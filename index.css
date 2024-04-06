@@ -1,26 +1,10 @@
 body {
-  font-size: 24px;
-  background-color: #310353;
-  font-family: "Times New Roman", Times, serif;
-  color: white;
-}
-.logo {
-  font-size: 48px;
-  font-family: "Times New Roman", Times, serif;
-  color: #00cccc;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: #11345c;
-}
-h1 {
-  font-size: 24px;
-}
-
-h2 {
-  font-size: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: aliceblue;
+    font-size: medium;
+    font-family: Georgia;
+    text-align: center;
+    word-spacing: 30px;
+    flex-wrap: wrap;
 }
