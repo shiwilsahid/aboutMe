@@ -1,9 +1,38 @@
 body {
   font-family: Arial;
-  background: radial-gradient(#5d00a6, #002d63);
+  background: radial-gradient(#3b0068, #0b294e);
   text-align: center;
 }
 
 h1 {
   background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+img {
+  object-fit: contain;
+}
+
+header {
+  margin: 0 auto;
+  padding: 10% 5%;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+}
+
+footer {
+  margin: 0 auto;
+  padding: 10% 5%;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
