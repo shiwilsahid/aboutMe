@@ -1,18 +1,26 @@
 body {
   font-family: Arial;
-  background: radial-gradient(#3b0068, #0b294e);
+  background: radial-gradient(#180923, #050b12);
   text-align: center;
+  color: azure;
 }
 
 h1 {
   background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+  color: transparent;
+}
+
+ul {
+  list-style-type: none;
 }
 
 img {
   object-fit: contain;
+  width: 100%;
 }
 
 header {
+  background: rgb(11, 40, 81);
   margin: 0 auto;
   padding: 10% 5%;
   max-width: 90%;
