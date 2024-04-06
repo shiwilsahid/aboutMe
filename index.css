@@ -28,10 +28,13 @@ header {
   width: 100%;
   background: rgb(11, 40, 81);
   display: flex;
+  flex-flow: row wrap;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
+  position: relative;
 }
 
 main {
