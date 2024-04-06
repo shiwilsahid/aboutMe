@@ -1,7 +1,6 @@
 body {
   font-family: Arial;
   background: url(images/background.jpg);
-  object-fit: fill;
   background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
   color: azure;
@@ -16,5 +15,4 @@ ul {
 img {
   max-width: 300px;
   max-height: 300px;
-  object-fit: contain;
 }
