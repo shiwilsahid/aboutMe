@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M Nur Sahid</title>
+    <title>Contact M Nur Sahid</title>
   </head>
   <body>
     <header class="container-header">
@@ -22,19 +22,46 @@
         </li>
       </nav>
     </header>
-    <main class="container-home">
-      <section>
-        <img src="/images/mnursahid-photo.jpg" alt="M Nur Sahid Photo" />
-      </section>
-      <section>
-        <h2>I'm Nursahid</h2>
-        <h2>a Software Engineer</h2>
-        <h2>based in Indonesia</h2>
-        <p>
-          If you have a great project that needs some amazing skills. I'm your
-          guy.
-        </p>
-      </section>
+    <main class="container-contact">
+      <form class="form-contact" method="post">
+        <section class="form-field">
+          <label for="full-name">Full name</label>
+          <input
+            id="full-name"
+            name="fullName"
+            type="text"
+            placeholder="Your fullname"
+          />
+        </section>
+        <section class="form-field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="email@email.com"
+          />
+        </section>
+        <section class="form-field">
+          <label for="phone">Phone number</label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="+62-1111-1111-1111"
+          />
+        </section>
+        <section class="form-field">
+          <label for="message">Message</label>
+          <input
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write what you want to say"
+          />
+        </section>
+        <button class="btn-submit" type="submit">Submit Message</button>
+      </form>
     </main>
     <footer class="container-footer">
       <p class="copyright">M Nur Sahid @ 2024</p>
