@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   background: url(images/background.jpg);
-  object-fit: contain;
+  object-fit: fill;
   background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
   color: azure;
