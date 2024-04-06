@@ -21,13 +21,4 @@ h1 {
   font-size: 24px;
 }
 
-.input {
-  border: 2px solid green;
-  padding: 5px;
-}
 
-.input:focus {
-  background: purple;
-  border-color: blue;
-  outline: black;
-}
