@@ -1,9 +1,22 @@
 a {
-  color: blue;
+  color: black;
 }
 
 a:visited {
-  color: red;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+h1 {
+  font-size: ;
 }
 
 .input {
