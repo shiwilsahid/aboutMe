@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M Nur Sahid</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <header class="container header">
@@ -26,21 +26,30 @@
       </nav>
     </header>
     <main class="container stack">
+      <picture
+        ><source
+          srcset="/images/mnursahid-photo.jpg"
+          media="(max-width: 800px)"
+        />
+        <img
+          src="/images/mnursahid-photo.jpg"
+          alt="M Nur Sahid Photo"
+          width="300"
+          height="300"
+        />
+      </picture>
       <section class="photo">
-        <img src="/images/mnursahid-photo.jpg" alt="M Nur Sahid Photo" />
-      </section>
-      <section class="description">
-        <h2>I'm Nursahid</h2>
-        <h2>a Software Engineer</h2>
-        <h2>based in Indonesia</h2>
-        <p>
+        <h2>
+          <b>I'm Nursahid</b>
+          <b>a Software Engineer</b>
+          <span>based in Indonesia</span>
           If you have a great project that needs some amazing skills. I'm your
           guy.
-        </p>
+        </h2>
       </section>
     </main>
     <footer class="container footer">
-      <p class="copyright">M Nur Sahid @ 2024</p>
+      <p class="copyright">M Nur Sahid &copy; 2024</p>
       <nav class="navigation">
         <ul class="navigation-list socials">
           <li>
