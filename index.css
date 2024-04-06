@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   background-image: url(/images/background.jpg);
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
   color: azure;
