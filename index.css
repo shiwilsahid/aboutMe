@@ -5,10 +5,16 @@ body {
   background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
   color: azure;
-  font-size: 12px;
+  font-size: 18px;
   font-family: Arial;
 }
 
 ul {
   list-style-type: none;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
 }
