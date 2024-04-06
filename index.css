@@ -1,6 +1,8 @@
 body {
   font-family: Arial;
-  background: radial-gradient(#180923, #050b12);
+  background: radial-gradient(#180923, #050b12), url(images/background.jpg);
   text-align: center;
   color: azure;
+
+  background-size: cover;
 }
