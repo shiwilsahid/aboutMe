@@ -24,6 +24,7 @@ header {
   margin: 0 auto;
   padding: 10% 5%;
   max-width: 90%;
+  max-height: 10%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -32,6 +33,16 @@ header {
 }
 
 main {
+  background: rgb(53, 61, 68);
+  margin: 0 auto;
+  padding: 5% 10%;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
