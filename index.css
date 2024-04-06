@@ -23,8 +23,8 @@ header {
   background: rgb(11, 40, 81);
   margin: 0 auto;
   padding: 10% 5%;
-  max-width: 90%;
-  max-height: 10%;
+  max-width: 80%;
+  max-height: 5%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -36,7 +36,7 @@ main {
   background: rgb(53, 61, 68);
   margin: 0 auto;
   padding: 5% 10%;
-  max-width: 90%;
+  max-width: 80%;
   max-height: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +48,8 @@ main {
 footer {
   margin: 0 auto;
   padding: 10% 5%;
-  max-width: 90%;
+  max-width: 80%;
+  max-height: 5%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
