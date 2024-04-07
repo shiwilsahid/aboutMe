@@ -4,9 +4,19 @@ body {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.405);
   text-align: center;
-  color: azure;
+  color: rgb(182, 188, 188);
   font-size: 18px;
   font-family: Arial;
+}
+
+a {
+  color: rgb(182, 188, 188);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(20, 150, 70);
+  transition: all 0.2s ease-in-out;
 }
 
 ul {
@@ -16,5 +26,44 @@ ul {
 img {
   max-width: 300px;
   max-height: 300px;
+  width: 100%;
   object-fit: contain;
+}
+
+.container {
+  border: 15px;
+  border-color: aquamarine;
+  margin: 20px 10%;
+  padding: 3%;
+  background-color: rgba(9, 20, 24, 0.544);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+  }
 }
