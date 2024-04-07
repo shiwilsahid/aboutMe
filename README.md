@@ -4,7 +4,7 @@ This is my personal website to show my profile, bio, photo, links, social media 
 
 # Links
 
-- Website URL: [personal.mnursahid.com]
+- Website URL: [personal.mnursahid.com](https://personal.mnursahid.com)
 - GitHub Repo: https://github.com/shiwilsahid/mnursahid.com.git
 - Figma File: https://www.figma.com/file/CdaDwJqILuMSHWv5zpnsqP/nursahid?type=design&node-id=2%3A6&mode=design&t=Xr38YxbP8Z6bUFAh-1
 
