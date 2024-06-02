@@ -1,4 +1,4 @@
-# personal.mnursahid.com / Personal Website of M Nur Sahid
+# Personal
 
 This is my personal website to show my profile, bio, photo, links, social media and more.
 
