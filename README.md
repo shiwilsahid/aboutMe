@@ -1,4 +1,4 @@
-# About Me
+# AboutMe
 
 This is my personal website to show my profile, bio, photo, links, social media and more.
 
